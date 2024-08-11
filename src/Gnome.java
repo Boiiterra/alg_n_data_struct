@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Gnome {
     public static int[] sort(int[] arr) {
         int[] res = arr.clone();
