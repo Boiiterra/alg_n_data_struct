@@ -4,3 +4,6 @@
 
 1. Hello, world!
 2. Bubble sort
+3. Quick sort
+4. Gnome sort
+5. Cocktail sort

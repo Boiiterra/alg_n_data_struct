@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.print("1. ");
         HelloWorld.say();
 
         int maxLen = 30, minLen = 10; // Array data
@@ -29,13 +30,13 @@ public class Main {
 
         System.out.println("Initial array with " + arr_size + " elements:");
         System.out.println(Arrays.toString(arr));
-        System.out.println("Bubble sort:");
+        System.out.println("2. Bubble sort:");
         System.out.println(Arrays.toString(Bubble.sort(arr)));
-        System.out.println("Quick sort:");
+        System.out.println("3. Quick sort:");
         System.out.println(Arrays.toString(Quick.sort(arr)));
-        System.out.println("Gnome sort:");
+        System.out.println("4. Gnome sort:");
         System.out.println(Arrays.toString(Gnome.sort(arr)));
-        System.out.println("Cocktail sort");
+        System.out.println("5. Cocktail sort");
         System.out.println(Arrays.toString(Cocktail.sort(arr)));
     }
 }
