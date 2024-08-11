@@ -32,5 +32,7 @@ public class Main {
         System.out.println(Arrays.toString(Bubble.sort(arr)));
         System.out.println("Quick sort:");
         System.out.println(Arrays.toString(Quick.sort(arr)));
+        System.out.println("Gnome sort:");
+        System.out.println(Arrays.toString(Gnome.sort(arr)));
     }
 }
