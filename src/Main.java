@@ -38,5 +38,17 @@ public class Main {
         System.out.println(Arrays.toString(Gnome.sort(arr)));
         System.out.println("5. Cocktail sort");
         System.out.println(Arrays.toString(Cocktail.sort(arr)));
+
+        System.out.println("\nData structures.\n");
+
+        System.out.println("6. Stack");
+        MyStack<Object> myStack = new MyStack<Object>();
+        System.out.println(myStack);
+        myStack.add("String");
+        myStack.add(123);
+        System.out.println(myStack);
+        Object popped = myStack.pop();
+        System.out.println(myStack);
+        System.out.println("Popped item is: " + popped);
     }
 }
